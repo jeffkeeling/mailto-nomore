@@ -1,0 +1,953 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1FABE42B2D8A69920066A14D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FABE42A2D8A69920066A14D /* AppDelegate.swift */; };
+		1FABE42D2D8A69920066A14D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FABE42C2D8A69920066A14D /* SceneDelegate.swift */; };
+		1FABE4302D8A69920066A14D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FABE42E2D8A69920066A14D /* LaunchScreen.storyboard */; };
+		1FABE4332D8A69920066A14D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FABE4312D8A69920066A14D /* Main.storyboard */; };
+		1FABE43C2D8A69920066A14D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FABE43B2D8A69920066A14D /* AppDelegate.swift */; };
+		1FABE43F2D8A69920066A14D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FABE43D2D8A69920066A14D /* Main.storyboard */; };
+		1FABE4472D8A69920066A14D /* mailto NoMore Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 1FABE4462D8A69920066A14D /* mailto NoMore Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1FABE4512D8A69920066A14D /* mailto NoMore Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 1FABE4502D8A69920066A14D /* mailto NoMore Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1FABE4572D8A69920066A14D /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 1FABE41A2D8A69920066A14D /* Main.html */; };
+		1FABE4582D8A69920066A14D /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 1FABE41A2D8A69920066A14D /* Main.html */; };
+		1FABE4592D8A69920066A14D /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FABE41C2D8A69920066A14D /* Icon.png */; };
+		1FABE45A2D8A69920066A14D /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FABE41C2D8A69920066A14D /* Icon.png */; };
+		1FABE45B2D8A69920066A14D /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 1FABE41D2D8A69920066A14D /* Style.css */; };
+		1FABE45C2D8A69920066A14D /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 1FABE41D2D8A69920066A14D /* Style.css */; };
+		1FABE45D2D8A69920066A14D /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 1FABE41E2D8A69920066A14D /* Script.js */; };
+		1FABE45E2D8A69920066A14D /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 1FABE41E2D8A69920066A14D /* Script.js */; };
+		1FABE45F2D8A69920066A14D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FABE41F2D8A69920066A14D /* ViewController.swift */; };
+		1FABE4602D8A69920066A14D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FABE41F2D8A69920066A14D /* ViewController.swift */; };
+		1FABE4612D8A69920066A14D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FABE4202D8A69920066A14D /* Assets.xcassets */; };
+		1FABE4622D8A69920066A14D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FABE4202D8A69920066A14D /* Assets.xcassets */; };
+		1FABE4632D8A69920066A14D /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FABE4222D8A69920066A14D /* SafariWebExtensionHandler.swift */; };
+		1FABE4642D8A69920066A14D /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FABE4222D8A69920066A14D /* SafariWebExtensionHandler.swift */; };
+		1FABE47A2D8A69920066A14D /* icons in Resources */ = {isa = PBXBuildFile; fileRef = 1FABE4762D8A69920066A14D /* icons */; };
+		1FABE47B2D8A69920066A14D /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 1FABE4772D8A69920066A14D /* manifest.json */; };
+		1FABE47C2D8A69920066A14D /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1FABE4782D8A69920066A14D /* LICENSE.txt */; };
+		1FABE47D2D8A69920066A14D /* contentScript.js in Resources */ = {isa = PBXBuildFile; fileRef = 1FABE4792D8A69920066A14D /* contentScript.js */; };
+		1FABE47E2D8A69920066A14D /* icons in Resources */ = {isa = PBXBuildFile; fileRef = 1FABE4762D8A69920066A14D /* icons */; };
+		1FABE47F2D8A69920066A14D /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 1FABE4772D8A69920066A14D /* manifest.json */; };
+		1FABE4802D8A69920066A14D /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1FABE4782D8A69920066A14D /* LICENSE.txt */; };
+		1FABE4812D8A69920066A14D /* contentScript.js in Resources */ = {isa = PBXBuildFile; fileRef = 1FABE4792D8A69920066A14D /* contentScript.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1FABE4482D8A69920066A14D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FABE4142D8A69920066A14D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FABE4452D8A69920066A14D;
+			remoteInfo = "mailto NoMore Extension (iOS)";
+		};
+		1FABE4522D8A69920066A14D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FABE4142D8A69920066A14D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FABE44F2D8A69920066A14D;
+			remoteInfo = "mailto NoMore Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1FABE46A2D8A69920066A14D /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				1FABE4472D8A69920066A14D /* mailto NoMore Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FABE4712D8A69920066A14D /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				1FABE4512D8A69920066A14D /* mailto NoMore Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1FABE41B2D8A69920066A14D /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = Base.lproj/Main.html; sourceTree = "<group>"; };
+		1FABE41C2D8A69920066A14D /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		1FABE41D2D8A69920066A14D /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		1FABE41E2D8A69920066A14D /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		1FABE41F2D8A69920066A14D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1FABE4202D8A69920066A14D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1FABE4222D8A69920066A14D /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		1FABE4272D8A69920066A14D /* mailto NoMore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mailto NoMore.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FABE42A2D8A69920066A14D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1FABE42C2D8A69920066A14D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1FABE42F2D8A69920066A14D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1FABE4322D8A69920066A14D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1FABE4342D8A69920066A14D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FABE4392D8A69920066A14D /* mailto NoMore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mailto NoMore.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FABE43B2D8A69920066A14D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1FABE43E2D8A69920066A14D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1FABE4402D8A69920066A14D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FABE4412D8A69920066A14D /* mailto NoMore.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "mailto NoMore.entitlements"; sourceTree = "<group>"; };
+		1FABE4462D8A69920066A14D /* mailto NoMore Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "mailto NoMore Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FABE44B2D8A69920066A14D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FABE4502D8A69920066A14D /* mailto NoMore Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "mailto NoMore Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FABE4552D8A69920066A14D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FABE4562D8A69920066A14D /* mailto NoMore.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "mailto NoMore.entitlements"; sourceTree = "<group>"; };
+		1FABE4762D8A69920066A14D /* icons */ = {isa = PBXFileReference; lastKnownFileType = folder; name = icons; path = "../../../chrome-firefox/icons"; sourceTree = "<group>"; };
+		1FABE4772D8A69920066A14D /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = "../../../chrome-firefox/manifest.json"; sourceTree = "<group>"; };
+		1FABE4782D8A69920066A14D /* LICENSE.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = LICENSE.txt; path = "../../../chrome-firefox/LICENSE.txt"; sourceTree = "<group>"; };
+		1FABE4792D8A69920066A14D /* contentScript.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = contentScript.js; path = "../../../chrome-firefox/contentScript.js"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1FABE4242D8A69920066A14D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FABE4362D8A69920066A14D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FABE4432D8A69920066A14D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FABE44D2D8A69920066A14D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1FABE4132D8A69920066A14D = {
+			isa = PBXGroup;
+			children = (
+				1FABE4182D8A69920066A14D /* Shared (App) */,
+				1FABE4212D8A69920066A14D /* Shared (Extension) */,
+				1FABE4292D8A69920066A14D /* iOS (App) */,
+				1FABE43A2D8A69920066A14D /* macOS (App) */,
+				1FABE44A2D8A69920066A14D /* iOS (Extension) */,
+				1FABE4542D8A69920066A14D /* macOS (Extension) */,
+				1FABE4282D8A69920066A14D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1FABE4182D8A69920066A14D /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				1FABE41F2D8A69920066A14D /* ViewController.swift */,
+				1FABE4202D8A69920066A14D /* Assets.xcassets */,
+				1FABE4192D8A69920066A14D /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		1FABE4192D8A69920066A14D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1FABE41A2D8A69920066A14D /* Main.html */,
+				1FABE41C2D8A69920066A14D /* Icon.png */,
+				1FABE41D2D8A69920066A14D /* Style.css */,
+				1FABE41E2D8A69920066A14D /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1FABE4212D8A69920066A14D /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				1FABE4752D8A69920066A14D /* Resources */,
+				1FABE4222D8A69920066A14D /* SafariWebExtensionHandler.swift */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		1FABE4282D8A69920066A14D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1FABE4272D8A69920066A14D /* mailto NoMore.app */,
+				1FABE4392D8A69920066A14D /* mailto NoMore.app */,
+				1FABE4462D8A69920066A14D /* mailto NoMore Extension.appex */,
+				1FABE4502D8A69920066A14D /* mailto NoMore Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1FABE4292D8A69920066A14D /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				1FABE42A2D8A69920066A14D /* AppDelegate.swift */,
+				1FABE42C2D8A69920066A14D /* SceneDelegate.swift */,
+				1FABE42E2D8A69920066A14D /* LaunchScreen.storyboard */,
+				1FABE4312D8A69920066A14D /* Main.storyboard */,
+				1FABE4342D8A69920066A14D /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		1FABE43A2D8A69920066A14D /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				1FABE43B2D8A69920066A14D /* AppDelegate.swift */,
+				1FABE43D2D8A69920066A14D /* Main.storyboard */,
+				1FABE4402D8A69920066A14D /* Info.plist */,
+				1FABE4412D8A69920066A14D /* mailto NoMore.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		1FABE44A2D8A69920066A14D /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				1FABE44B2D8A69920066A14D /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		1FABE4542D8A69920066A14D /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				1FABE4552D8A69920066A14D /* Info.plist */,
+				1FABE4562D8A69920066A14D /* mailto NoMore.entitlements */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+		1FABE4752D8A69920066A14D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1FABE4762D8A69920066A14D /* icons */,
+				1FABE4772D8A69920066A14D /* manifest.json */,
+				1FABE4782D8A69920066A14D /* LICENSE.txt */,
+				1FABE4792D8A69920066A14D /* contentScript.js */,
+			);
+			name = Resources;
+			path = "Shared (Extension)";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1FABE4262D8A69920066A14D /* mailto NoMore (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FABE46B2D8A69920066A14D /* Build configuration list for PBXNativeTarget "mailto NoMore (iOS)" */;
+			buildPhases = (
+				1FABE4232D8A69920066A14D /* Sources */,
+				1FABE4242D8A69920066A14D /* Frameworks */,
+				1FABE4252D8A69920066A14D /* Resources */,
+				1FABE46A2D8A69920066A14D /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1FABE4492D8A69920066A14D /* PBXTargetDependency */,
+			);
+			name = "mailto NoMore (iOS)";
+			packageProductDependencies = (
+			);
+			productName = "mailto NoMore (iOS)";
+			productReference = 1FABE4272D8A69920066A14D /* mailto NoMore.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1FABE4382D8A69920066A14D /* mailto NoMore (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FABE4722D8A69920066A14D /* Build configuration list for PBXNativeTarget "mailto NoMore (macOS)" */;
+			buildPhases = (
+				1FABE4352D8A69920066A14D /* Sources */,
+				1FABE4362D8A69920066A14D /* Frameworks */,
+				1FABE4372D8A69920066A14D /* Resources */,
+				1FABE4712D8A69920066A14D /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1FABE4532D8A69920066A14D /* PBXTargetDependency */,
+			);
+			name = "mailto NoMore (macOS)";
+			packageProductDependencies = (
+			);
+			productName = "mailto NoMore (macOS)";
+			productReference = 1FABE4392D8A69920066A14D /* mailto NoMore.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1FABE4452D8A69920066A14D /* mailto NoMore Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FABE4672D8A69920066A14D /* Build configuration list for PBXNativeTarget "mailto NoMore Extension (iOS)" */;
+			buildPhases = (
+				1FABE4422D8A69920066A14D /* Sources */,
+				1FABE4432D8A69920066A14D /* Frameworks */,
+				1FABE4442D8A69920066A14D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "mailto NoMore Extension (iOS)";
+			packageProductDependencies = (
+			);
+			productName = "mailto NoMore Extension (iOS)";
+			productReference = 1FABE4462D8A69920066A14D /* mailto NoMore Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		1FABE44F2D8A69920066A14D /* mailto NoMore Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FABE46E2D8A69920066A14D /* Build configuration list for PBXNativeTarget "mailto NoMore Extension (macOS)" */;
+			buildPhases = (
+				1FABE44C2D8A69920066A14D /* Sources */,
+				1FABE44D2D8A69920066A14D /* Frameworks */,
+				1FABE44E2D8A69920066A14D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "mailto NoMore Extension (macOS)";
+			packageProductDependencies = (
+			);
+			productName = "mailto NoMore Extension (macOS)";
+			productReference = 1FABE4502D8A69920066A14D /* mailto NoMore Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1FABE4142D8A69920066A14D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					1FABE4262D8A69920066A14D = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					1FABE4382D8A69920066A14D = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					1FABE4452D8A69920066A14D = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					1FABE44F2D8A69920066A14D = {
+						CreatedOnToolsVersion = 16.2;
+					};
+				};
+			};
+			buildConfigurationList = 1FABE4172D8A69920066A14D /* Build configuration list for PBXProject "mailto NoMore" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1FABE4132D8A69920066A14D;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 1FABE4282D8A69920066A14D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1FABE4262D8A69920066A14D /* mailto NoMore (iOS) */,
+				1FABE4382D8A69920066A14D /* mailto NoMore (macOS) */,
+				1FABE4452D8A69920066A14D /* mailto NoMore Extension (iOS) */,
+				1FABE44F2D8A69920066A14D /* mailto NoMore Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1FABE4252D8A69920066A14D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FABE4592D8A69920066A14D /* Icon.png in Resources */,
+				1FABE4302D8A69920066A14D /* LaunchScreen.storyboard in Resources */,
+				1FABE4572D8A69920066A14D /* Main.html in Resources */,
+				1FABE45D2D8A69920066A14D /* Script.js in Resources */,
+				1FABE4612D8A69920066A14D /* Assets.xcassets in Resources */,
+				1FABE4332D8A69920066A14D /* Main.storyboard in Resources */,
+				1FABE45B2D8A69920066A14D /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FABE4372D8A69920066A14D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FABE45A2D8A69920066A14D /* Icon.png in Resources */,
+				1FABE45C2D8A69920066A14D /* Style.css in Resources */,
+				1FABE43F2D8A69920066A14D /* Main.storyboard in Resources */,
+				1FABE45E2D8A69920066A14D /* Script.js in Resources */,
+				1FABE4622D8A69920066A14D /* Assets.xcassets in Resources */,
+				1FABE4582D8A69920066A14D /* Main.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FABE4442D8A69920066A14D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FABE4802D8A69920066A14D /* LICENSE.txt in Resources */,
+				1FABE47F2D8A69920066A14D /* manifest.json in Resources */,
+				1FABE47E2D8A69920066A14D /* icons in Resources */,
+				1FABE4812D8A69920066A14D /* contentScript.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FABE44E2D8A69920066A14D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FABE47C2D8A69920066A14D /* LICENSE.txt in Resources */,
+				1FABE47B2D8A69920066A14D /* manifest.json in Resources */,
+				1FABE47A2D8A69920066A14D /* icons in Resources */,
+				1FABE47D2D8A69920066A14D /* contentScript.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1FABE4232D8A69920066A14D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FABE45F2D8A69920066A14D /* ViewController.swift in Sources */,
+				1FABE42B2D8A69920066A14D /* AppDelegate.swift in Sources */,
+				1FABE42D2D8A69920066A14D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FABE4352D8A69920066A14D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FABE4602D8A69920066A14D /* ViewController.swift in Sources */,
+				1FABE43C2D8A69920066A14D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FABE4422D8A69920066A14D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FABE4632D8A69920066A14D /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FABE44C2D8A69920066A14D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FABE4642D8A69920066A14D /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1FABE4492D8A69920066A14D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FABE4452D8A69920066A14D /* mailto NoMore Extension (iOS) */;
+			targetProxy = 1FABE4482D8A69920066A14D /* PBXContainerItemProxy */;
+		};
+		1FABE4532D8A69920066A14D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FABE44F2D8A69920066A14D /* mailto NoMore Extension (macOS) */;
+			targetProxy = 1FABE4522D8A69920066A14D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1FABE41A2D8A69920066A14D /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FABE41B2D8A69920066A14D /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		1FABE42E2D8A69920066A14D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FABE42F2D8A69920066A14D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		1FABE4312D8A69920066A14D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FABE4322D8A69920066A14D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1FABE43D2D8A69920066A14D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FABE43E2D8A69920066A14D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1FABE4652D8A69920066A14D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1FABE4662D8A69920066A14D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		1FABE4682D8A69920066A14D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 66592HUJRV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "mailto NoMore Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jeffkeeling.mailto-NoMore.Extension";
+				PRODUCT_NAME = "mailto NoMore Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1FABE4692D8A69920066A14D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 66592HUJRV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "mailto NoMore Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jeffkeeling.mailto-NoMore.Extension";
+				PRODUCT_NAME = "mailto NoMore Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1FABE46C2D8A69920066A14D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 66592HUJRV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "mailto NoMore";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jeffkeeling.mailto-NoMore";
+				PRODUCT_NAME = "mailto NoMore";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1FABE46D2D8A69920066A14D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 66592HUJRV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "mailto NoMore";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jeffkeeling.mailto-NoMore";
+				PRODUCT_NAME = "mailto NoMore";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1FABE46F2D8A69920066A14D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/mailto NoMore.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "mailto NoMore Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jeffkeeling.mailto-NoMore.Extension";
+				PRODUCT_NAME = "mailto NoMore Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		1FABE4702D8A69920066A14D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/mailto NoMore.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "mailto NoMore Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jeffkeeling.mailto-NoMore.Extension";
+				PRODUCT_NAME = "mailto NoMore Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		1FABE4732D8A69920066A14D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/mailto NoMore.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "mailto NoMore";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jeffkeeling.mailto-NoMore";
+				PRODUCT_NAME = "mailto NoMore";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		1FABE4742D8A69920066A14D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/mailto NoMore.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "mailto NoMore";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jeffkeeling.mailto-NoMore";
+				PRODUCT_NAME = "mailto NoMore";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1FABE4172D8A69920066A14D /* Build configuration list for PBXProject "mailto NoMore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FABE4652D8A69920066A14D /* Debug */,
+				1FABE4662D8A69920066A14D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FABE4672D8A69920066A14D /* Build configuration list for PBXNativeTarget "mailto NoMore Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FABE4682D8A69920066A14D /* Debug */,
+				1FABE4692D8A69920066A14D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FABE46B2D8A69920066A14D /* Build configuration list for PBXNativeTarget "mailto NoMore (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FABE46C2D8A69920066A14D /* Debug */,
+				1FABE46D2D8A69920066A14D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FABE46E2D8A69920066A14D /* Build configuration list for PBXNativeTarget "mailto NoMore Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FABE46F2D8A69920066A14D /* Debug */,
+				1FABE4702D8A69920066A14D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FABE4722D8A69920066A14D /* Build configuration list for PBXNativeTarget "mailto NoMore (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FABE4732D8A69920066A14D /* Debug */,
+				1FABE4742D8A69920066A14D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1FABE4142D8A69920066A14D /* Project object */;
+}
