@@ -9,13 +9,13 @@ Instead with this extension, the email address is copied to your clipboard and a
 <br />
 
 <a href="https://addons.mozilla.org/en-US/firefox/addon/mailto-nomore/" target="_blank">
-	<img src="https://github.com/jeffkeeling/mailto-nomore/blob/main/webstores/firefox.png?raw=true" width="172" height="60">
+	<img src="https://github.com/jeffkeeling/mailto-nomore/blob/master/webstores/firefox.png?raw=true" width="172" height="60">
 </a>
 
 <br />
 
 <a href="https://chromewebstore.google.com/detail/mdeninlbmkigaejefcjmkldjpcjadogo?utm_source=item-share-cb" target="_blank">
-	<img src="https://github.com/jeffkeeling/mailto-nomore/blob/main/webstores/chrome.png?raw=true" width="206" height="58">
+	<img src="https://github.com/jeffkeeling/mailto-nomore/blob/master/webstores/chrome.png?raw=true" width="206" height="58">
 </a>
 
 <br />
